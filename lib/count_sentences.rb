@@ -7,7 +7,7 @@ class String
   end
 
   def question?
-    self[('?')
+    self[-1] ==  ('?')
   end
 
   def exclamation?
